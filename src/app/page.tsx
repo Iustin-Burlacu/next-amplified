@@ -17,9 +17,9 @@ export default function Home() {
         <div className={styles.main}>
           Hello World
             <div className={styles.divButton}>
-                <button className={styles.button} onClick={() => onClickHandler('+')}> +</button>
+                <button className={styles.button} onClick={() => onClickHandler('-')}> - </button>
                 {counter}
-                <button className={styles.button} onClick={() => onClickHandler('-')}> -</button>
+                <button className={styles.button} onClick={() => onClickHandler('+')}> + </button>
             </div>
         </div>
     );
